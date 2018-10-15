@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/trolley/trolley"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "水果商店",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "resource/index.png",
+      "selectedIconPath": "resource/index-chk.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/trolley/trolley",
+      "iconPath": "resource/shooping.png",
+      "selectedIconPath": "resource/shooping-chk.png",
+      "text": "购物车"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

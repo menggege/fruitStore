@@ -1,0 +1,7 @@
+<view>
+    <image src="{{commodity.img}}" mode="scaleToFill" />
+    <view class="margin">{{commodity.name}}</view>
+    <view class="margin">价格：  <label  class="price">￥{{commodity.price}}</label></view>
+    <view  class="margin"> 商品介绍：<label class="des">{{commodity.des}}</label></view>
+    <button type="primary" bindtap="addTap">加入购物车</button>
+</view>

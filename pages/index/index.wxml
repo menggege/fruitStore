@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view>
+  <block wx:for="{{commoditys}}">
+    <navigator url="../detail/detail?id={{item.id}}">
+      <image src="{{item.img}}" mode="scaleToFill" class="index-img" />
+      <view class="title">{{item.name}}</view>
+    </navigator>
+  </block>
+</view>

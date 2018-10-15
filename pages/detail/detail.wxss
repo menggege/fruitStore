@@ -1,0 +1,13 @@
+/* pages/detail/detail.wxss */
+
+.margin{
+    margin: 10px 5px;
+}
+
+.price{
+    color:red;
+    font-size: 16px;
+}
+.des{
+    color:#333;
+}

@@ -1,0 +1,14 @@
+<view>
+    <block wx:for="{{commoditys}}">
+        <navigator url="../detail/detail?id={{item.id}}">
+            <view class="bg">
+                <label>{{item.name}}</label>
+                <label class="price">￥{{item.price}}</label>
+            </view>
+        </navigator>
+    </block>
+    <view class="msg" wx:if="{{!hasCommoditys}}">暂无商品，请选购</view>
+    <view class="btn-position">
+        <button size="mini" type="{{hasCommoditys?'default':'primary'}}" bindtap="shoppingTap">继续购物</button><button size="mini" type="{{hasCommoditys?'primary':'default'}}" bindtap="accountTap" disabled="{{!hasCommoditys}}">结  算</button>
+    </view>
+</view>

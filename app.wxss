@@ -1,0 +1,17 @@
+/**app.wxss**/
+page{
+  font-size: 28rpx;
+  font-family:'微软雅黑';
+}
+button{
+  margin: 0rpx 20rpx;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
